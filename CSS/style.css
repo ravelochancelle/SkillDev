@@ -1,0 +1,13 @@
+/*Styles généraux*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body{
+    width: 100%;
+}
