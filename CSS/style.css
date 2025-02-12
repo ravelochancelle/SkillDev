@@ -201,3 +201,25 @@ p{
     box-shadow:0 0 10px 0 rgba(0,0,0,0.4); 
 
 }
+
+.btn-formation{
+    display:inline-block;
+    text-decoration: none;
+    color:#182C64;
+    border: 1px solid #182C64;
+    padding: 12px 34px;
+    font-size: 16px;
+    text-transform:uppercase;
+    background:transparent;
+    position:relative;
+    cursor:pointer;
+    margin:10px 0 20px 0;
+    font-weight: 600;
+}
+
+.btn-formation:hover{
+    border:1px solid #182C64;
+    background-color: #182C64;
+    color:#FFF;
+    transition: 0.6s;
+}
