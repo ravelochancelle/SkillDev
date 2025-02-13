@@ -1,119 +1,216 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Skildeve</title>
-    <link rel="stylesheet" href="CSS/style.css">
-</head>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script
+      src="https://kit.fontawesome.com/b4afc3a051.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
-
-<!-- Section navbar-->    
+  <body>
+    <!-- Section navbar-->
 
     <section class="nav-bar">
-
-        <a href="index.html"><img src="images/logo.jpg" class="logo"></a>
-        <div>
-            <ul id="topmenu">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="formations.html">Nos formations</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="apropos.html">A propos</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-
+      <a href="index.html"><img src="images/logo.jpg" class="logo" /></a>
+      <div>
+        <ul id="topmenu">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="formations.html">Nos formations</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="apropos.html">A propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
     </section>
 
-<!--Section header-->
+    <!--Section header-->
 
     <section class="header">
-        
-        <h1>Apprendre le développement Web</h1>
-        <h3>Découvrir nos formations</h3>
-        <a href="formations.html" class="btn">Nos formations</a>
-
+      <h1>Apprendre le développement Web</h1>
+      <h3>Découvrir nos formations</h3>
+      <a href="formations.html" class="btn">Nos formations</a>
     </section>
 
-<!--Section de formations-->
-
+    <!--Section de formations-->
 
     <section class="formations">
-        <h1>Nos formations récentes</h1>
-        <p>Découvrez nos formations en ligne conçues pour répondre aux besoins des débutants et des professionnels.</p>
+      <h1>Nos formations récentes</h1>
+      <p>
+        Découvrez nos formations en ligne conçues pour répondre aux besoins des
+        débutants et des professionnels.
+      </p>
 
-        <div class="row">
-        
-            <div class="formations-col">
+      <div class="row">
+        <div class="formations-col">
+          <img src="images/html-css.jpg" alt="html-css" />
+          <div class="prix">19.99£</div>
+          <h3>HTML & CSS</h3>
+          <p>
+            Apprenez les bases du HTML et du CSS pour créer des sites web
+            modernes et responsives, même sans expérience préalable. Grâce à des
+            cours structurés et des exercices pratiques, vous maîtriserez la
+            mise en page, les styles et les bonnes pratiques du développement
+            web. Rejoignez-nous et commencez à construire vos propres pages web
+            dès aujourd'hui !
+          </p>
 
-                <img src="images/html-css.jpg" alt="html-css">
-                <div class="prix">19.99£</div>
-                <h3>HTML & CSS </h3>
-                <P>Apprenez les bases du HTML et du CSS pour créer des sites web modernes et responsives, même sans expérience préalable. Grâce à des cours structurés et des exercices pratiques, vous maîtriserez la mise en page, les styles et les bonnes pratiques du développement web. Rejoignez-nous et commencez à construire vos propres pages web dès aujourd'hui !</P>
-                <a href="formations.html"  class="btn-formation">Découvrir la formation</a>
- 
-            </div>
+          <div class="star-formation">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <span>(1258)</span>
+          </div>
 
-            <div class="formations-col">
-                
-                <img src="images/php.jpg" alt="php">
-                <div class="prix">19.99£</div>
-                <h3>PHP</h3>
-                <P>Apprenez PHP, le langage incontournable pour le développement web dynamique, et maîtrisez la création de sites interactifs. Grâce à cette formation, vous découvrirez comment gérer les formulaires, interagir avec une base de données MySQL et développer des applications web robustes. Lancez-vous et donnez vie à vos projets web !Lancez-vous et donnez vie à vos projets web !</P>
-                <a href="formations.html"  class="btn-formation">Découvrir la formation</a>
- 
-            </div>
-
-            <div class="formations-col">
-                
-                <img src="images/javascript.jpg" alt="javascript">
-                <div class="prix">19.99£</div>
-                <h3>JAVASCRIPT</h3>
-                <P>Maîtrisez JavaScript, le langage incontournable du web, pour rendre vos sites interactifs et dynamiques. Apprenez à manipuler le DOM, gérer les événements et utiliser les fonctions asynchrones afin de créer des expériences utilisateur fluides et modernes. Grâce à cette formation, vous développerez des compétences solides en programmation. Lancez-vous et donnez vie à vos projets web !</P>
-                <a href="formations.html"  class="btn-formation">Découvrir la formation</a>
- 
-            </div>
-
+          <a href="formations.html" class="btn-formation"
+            >Découvrir la formation</a
+          >
         </div>
 
-        <div class="row">
-        
-            <div class="formations-col">
+        <div class="formations-col">
+          <img src="images/php.jpg" alt="php" />
+          <div class="prix">19.99£</div>
+          <h3>PHP</h3>
+          <p>
+            Apprenez PHP, le langage incontournable pour le développement web
+            dynamique, et maîtrisez la création de sites interactifs. Grâce à
+            cette formation, vous découvrirez comment gérer les formulaires,
+            interagir avec une base de données MySQL et développer des
+            applications web robustes. Lancez-vous et donnez vie à vos projets
+            web !Lancez-vous et donnez vie à vos projets web !
+          </p>
 
-                <img src="images/data-science.jpg" alt="data-science">
-                <div class="prix">19.99£</div>
-                <h3>DATA-SCIENCE </h3>
-                <P>Découvrez l'univers captivant de la Data Science et apprenez à exploiter la puissance des données pour résoudre des problématiques complexes. Grâce à cette formation, vous maîtriserez les outils incontournables comme Python, Pandas et NumPy, ainsi que les fondamentaux du Machine Learning, afin d’analyser, visualiser et interpréter les données.Lancez-vous et donnez vie à vos projets web ! </P>
-                <a href="formations.html"  class="btn-formation">Découvrir la formation</a>
- 
-            </div>
+          <div class="star-formation">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <span>(452)</span>
+          </div>
 
-            <div class="formations-col">
-                
-                <img src="images/php-poo.jpg" alt="php-poo">
-                <div class="prix">19.99£</div>
-                <h3>PHP ORIENTÉ OBJET</h3>
-                <P>Apprenez la programmation orientée objet en PHP pour structurer votre code de manière efficace et professionnelle. Découvrez les concepts clés comme les classes, l’héritage, l’encapsulation et la gestion des objets, ainsi que les bonnes pratiques de développement, afin de créer des applications web modulaires, sécurisées, performantes et évolutives. Lancez-vous et donnez vie à vos projets web !</P>
-                <a href="formations.html"  class="btn-formation">Découvrir la formation</a>
- 
-            </div>
-
-            <div class="formations-col">
-                
-                <img src="images/mvc.jpg" alt="mvc">
-                <div class="prix">19.99£</div>
-                <h3>MVC</h3>
-                <P>Apprenez le modèle MVC (Modèle-Vue-Contrôleur), une architecture essentielle pour organiser et structurer vos applications web de manière efficace. Grâce à cette formation, vous comprendrez comment séparer la logique métier, l'affichage et le contrôle des données, facilitant ainsi la maintenance, l'évolution et la collaboration sur vos projets web.</P>
-                <a href="formations.html"  class="btn-formation">Découvrir la formation</a>
- 
-            </div>
-
+          <a href="formations.html" class="btn-formation"
+            >Découvrir la formation</a
+          >
         </div>
 
+        <div class="formations-col">
+          <img src="images/javascript.jpg" alt="javascript" />
+          <div class="prix">19.99£</div>
+          <h3>JAVASCRIPT</h3>
+          <p>
+            Maîtrisez JavaScript, le langage incontournable du web, pour rendre
+            vos sites interactifs et dynamiques. Apprenez à manipuler le DOM,
+            gérer les événements et utiliser les fonctions asynchrones afin de
+            créer des expériences utilisateur fluides et modernes. Grâce à cette
+            formation, vous développerez des compétences solides en
+            programmation. Lancez-vous et donnez vie à vos projets web !
+          </p>
 
+          <div class="star-formation">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>(258)</span>
+          </div>
+
+          <a href="formations.html" class="btn-formation"
+            >Découvrir la formation</a
+          >
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="formations-col">
+          <img src="images/data-science.jpg" alt="data-science" />
+          <div class="prix">19.99£</div>
+          <h3>DATA-SCIENCE</h3>
+          <p>
+            Découvrez l'univers captivant de la Data Science et apprenez à
+            exploiter la puissance des données pour résoudre des problématiques
+            complexes. Grâce à cette formation, vous maîtriserez les outils
+            incontournables comme Python, Pandas et NumPy, ainsi que les
+            fondamentaux du Machine Learning, afin d’analyser, visualiser et
+            interpréter les données.Lancez-vous et donnez vie à vos projets web
+            !
+          </p>
+
+          <div class="star-formation">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <span>(3025)</span>
+          </div>
+
+          <a href="formations.html" class="btn-formation"
+            >Découvrir la formation</a
+          >
+        </div>
+
+        <div class="formations-col">
+          <img src="images/php-poo.jpg" alt="php-poo" />
+          <div class="prix">19.99£</div>
+          <h3>PHP ORIENTÉ OBJET</h3>
+          <p>
+            Apprenez la programmation orientée objet en PHP pour structurer
+            votre code de manière efficace et professionnelle. Découvrez les
+            concepts clés comme les classes, l’héritage, l’encapsulation et la
+            gestion des objets, ainsi que les bonnes pratiques de développement,
+            afin de créer des applications web modulaires, sécurisées,
+            performantes et évolutives. Lancez-vous et donnez vie à vos projets
+            web !
+          </p>
+
+          <div class="star-formation">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>(65)</span>
+          </div>
+
+          <a href="formations.html" class="btn-formation"
+            >Découvrir la formation</a
+          >
+        </div>
+
+        <div class="formations-col">
+          <img src="images/mvc.jpg" alt="mvc" />
+          <div class="prix">19.99£</div>
+          <h3>MVC</h3>
+          <p>
+            Apprenez le modèle MVC (Modèle-Vue-Contrôleur), une architecture
+            essentielle pour organiser et structurer vos applications web de
+            manière efficace. Grâce à cette formation, vous comprendrez comment
+            séparer la logique métier, l'affichage et le contrôle des données,
+            facilitant ainsi la maintenance, l'évolution et la collaboration sur
+            vos projets web.
+          </p>
+
+          <div class="star-formation">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>(2692)</span>
+          </div>
+
+          <a href="formations.html" class="btn-formation"
+            >Découvrir la formation</a
+          >
+        </div>
+      </div>
     </section>
-    
-</body>
+  </body>
 </html>
