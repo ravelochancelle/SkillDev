@@ -268,7 +268,13 @@ p{
     width:60%;
 }
 
-.apropos h1,h3,p {
+.apropos h1,h3{
+    padding-bottom: 10px;
+    color:#FFF;
+}
+
+
+.apropos p {
     padding-bottom: 10px;
     color:#FFF;
 }
