@@ -319,3 +319,34 @@ p{
     
 }
 
+/*-----------------Section Devenir formateur--------------*/
+
+.devenir-formateur{
+    background-image: linear-gradient(rgba(4,41,117,0.6),rgba(4,41,117,0.6)),url(../images/banner.jpg);
+    height:90vh;
+    width:100%;
+    background-size: cover;
+    background-position:center;
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.text-bloc{
+    width:70%;
+    text-align: center;
+
+}
+
+.text-bloc h1{
+    color:#FFF;
+    font-size: 60px;
+}
+
+.text-bloc p{
+    color:#FFF;
+    font-size: 16px;;
+}
+
