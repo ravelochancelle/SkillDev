@@ -350,3 +350,24 @@ p{
     font-size: 16px;;
 }
 
+.btn-formateur{
+    background-color: #F95E05;
+    font-size: 16px;
+    padding: 12px 34px;
+    font-weight: 600;
+    height:3.5em;
+    color:#FFF;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius:7px;
+    cursor:pointer;
+}
+
+.btn-formateur:hover{
+    border:1px solid #09C7FA;
+    background-color: #09C7FA;
+    color:#FFF;
+    transition:0.7s;
+}
