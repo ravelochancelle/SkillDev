@@ -451,6 +451,29 @@ p{
     width:100%;
     border: 1px solid transparent;
     border-radius: 5px;
+    border-top-right-radius:0 ;
+    border-bottom-right-radius: 0;
+}
+
+.inputbouton{
+   background-color: #09C7FA;
+   height:3.5em ; 
+   padding:0px 1.4em;
+   font-size: 14px;
+   color:#FFF;
+   text-align:center;
+   text-decoration: none;
+   border: 1px solid transparent;
+   border-radius: 5px;
+   border-top-left-radius: 0;
+   border-bottom-left-radius: 0;
+   cursor:pointer;
+
+}
+
+.inputbouton:hover{
+    background-color: #FE725F;
+    transition:0.6s;
 }
 
 
