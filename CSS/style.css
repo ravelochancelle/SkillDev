@@ -416,3 +416,41 @@ p{
     margin-top:10px;
     color:#F95E05;
 }
+
+/*------------------------Section News letters----------------*/
+
+#newsletters{
+    background-color: #1B2148;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    padding:50px 120px;
+    
+}
+
+#newsletters h3{
+    font-size: 32px;
+    color:#09C7FA;
+}
+
+#newsletters p{
+    font-size: 18px;
+    color:#FFF;
+}
+
+.form-newsletters{
+    display:flex;
+    width:36%;
+}
+
+.form-newsletters input{
+    height:3.5em;
+    padding:0px 1.4em;
+    font-size: 14px;
+    width:100%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+
