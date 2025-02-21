@@ -476,4 +476,88 @@ p{
     transition:0.6s;
 }
 
+.contact-form{
+    width:100%;
+    margin:auto;
+    background-image: url(../images/datascience.jpg);
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;   
+}
+
+.form{
+    width:50%;
+    background-color: #F0F1F3;
+    margin:70px auto;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.form h4 {
+    color: #4A4948;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    line-height:30px ;
+}
+
+.form p {
+    color: #4A4948;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.row-form {
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+}
+
+.row-form input {
+    width:48%;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    border:none;
+    background-color: #fff;
+    outline:none;
+    color: #4A4948;
+    outline:none;
+    padding:15px 20px;
+    margin-bottom: 20px;
+}
+
+.row-col-form input,
+.row-col-form textarea{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius:5px;
+    border:none;
+    background-color: #fff;
+    color: #4A4948;
+    padding:15px 20px;
+    margin-bottom: 20px;
+}
+
+.row-col-form button{
+    width:100%;
+    font-size: 14px;
+    padding:15px 20px;
+    background-color: #1B2148;
+    border:none;
+    color:#FFf;
+    border-radius:5px;
+    cursor:pointer;
+    font-weight: 700;
+}
+
+.row-col-form button:hover {
+    background-color: #1F7DF5;
+    transition:0.6s;
+}
+
+
+
 
