@@ -623,6 +623,32 @@ footer p {
     text-align: center;
 
 }
+.contact-infos-detail div{
+    display:flex;
+
+
+}
+
+.fa-location-dot {
+    font-size: 16px;
+    line-height: 20px;
+    color:#053292;
+    margin-right: 20px;
+}
+
+.fa-phone {
+    font-size: 16px;
+    line-height: 20px;
+    color:#053292;
+    margin-right: 20px;
+}
+
+.fa-envelope {
+    font-size: 16px;
+    line-height: 20px;
+    color:#053292;
+    margin-right: 20px;
+}
 
 
 
